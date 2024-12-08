@@ -1,0 +1,8 @@
+blackbody, T=1e5 K    # The continuum shape will be a blackbody of temperature 10^5 K
+luminosity total 38    # The luminosity of the star in log erg s-1
+radius 18    # The log of the inner radius in cm
+hden 5    # The log of Hydrogen density in cm-3
+sphere    # The geometry of the cloud is a sphere surrounding the emitter
+# abundances planetary nebula (Commenting out this line will set solar chemical abundances)
+save overview ".ovr"    # Create an overview file for the simulation
+save continuum ".con" units microns    # Creatr a continnum information file for the simulation
